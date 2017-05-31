@@ -1,0 +1,68 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+<!--
+    <item
+        android:id="@+id/action_bar_menu_item_home"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="@string/menu_item_home"
+        app:showAsAction="never"
+        android:orderInCategory="10">
+    </item>
+    <item
+        android:id="@+id/action_bar_menu_item_offers"
+        android:icon="@drawable/ic_local_offer_white_24dp"
+        android:title="@string/menu_item_offers"
+        app:showAsAction="never"
+        android:orderInCategory="11">
+    </item>
+    <item
+        android:id="@+id/action_bar_menu_item_events"
+        android:icon="@drawable/ic_event_white_24dp"
+        android:title="@string/menu_item_events"
+        app:showAsAction="never"
+        android:orderInCategory="12">
+    </item>
+    <item
+        android:id="@+id/action_bar_menu_item_artists"
+        android:icon="@drawable/ic_local_activity_white_24dp"
+        android:title="@string/menu_item_artists"
+        app:showAsAction="never"
+        android:orderInCategory="13">
+    </item>
+-->
+<!--
+    <item
+        android:id="@+id/action_bar_menu_item5"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="Search"
+        android:orderInCategory="14"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView">
+    </item>
+-->
+    <item
+        android:id="@+id/action_bar_menu_item_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/menu_item_search"
+        android:orderInCategory="100"
+        app:showAsAction="always">
+    </item>
+<!--
+    <item
+        android:id="@+id/action_bar_menu_item_settings"
+        android:icon="@drawable/ic_settings_white_48dp"
+        android:title="@string/menu_item_settings"
+        app:showAsAction="never"
+        android:orderInCategory="15">
+    </item>
+    <item
+        android:id="@+id/action_bar_menu_item_about"
+        android:icon="@drawable/ic_star_half_black_48dp"
+        android:title="@string/menu_item_about"
+        app:showAsAction="never"
+        android:orderInCategory="16">
+    </item>
+-->
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_bar_item1"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/menu_item_home"
+        app:showAsAction="always|withText"
+        android:orderInCategory="10">
+    </item>
+<!--
+    <item
+        android:id="@+id/bottom_bar_item2"
+        android:icon="@drawable/ic_local_offer_black_24dp"
+        android:title="@string/menu_item_offers"
+        app:showAsAction="always|withText"
+        android:orderInCategory="11">
+    </item>
+-->
+    <item
+        android:id="@+id/bottom_bar_item3"
+        android:icon="@drawable/ic_event_black_24dp"
+        android:title="@string/menu_item_events"
+        app:showAsAction="always|withText"
+        android:orderInCategory="12">
+    </item>
+    <item
+        android:id="@+id/bottom_bar_item4"
+        android:icon="@drawable/ic_local_activity_black_24dp"
+        android:title="@string/menu_item_artists"
+        app:showAsAction="always|withText"
+        android:orderInCategory="13">
+    </item>
+</menu>

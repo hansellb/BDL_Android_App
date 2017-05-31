@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/home_button_selector"
+        title="Home"
+        barColorWhenSelected="#b71c1c"/>
+    <tab
+        id="@+id/tab_offers"
+        icon="@drawable/offers_button_selector"
+        title="Offers"
+        barColorWhenSelected="#b71c1c"/>
+    <tab
+        id="@+id/tab_events"
+        icon="@drawable/events_button_selector"
+        title="Events"
+        barColorWhenSelected="#b71c1c"/>
+    <tab
+        id="@+id/tab_artists"
+        icon="@drawable/artists_button_selector"
+        title="Artists"
+        barColorWhenSelected="#b71c1c"/>
+</tabs>
+-->
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home_black_24dp"
+        title="Home"
+        barColorWhenSelected="#b71c1c"/>
+    <tab
+        id="@+id/tab_offers"
+        icon="@drawable/ic_local_offer_black_24dp"
+        title="Offers"
+        barColorWhenSelected="#b71c1c"/>
+    <tab
+        id="@+id/tab_events"
+        icon="@drawable/ic_event_black_24dp"
+        title="Events"
+        barColorWhenSelected="#b71c1c"/>
+    <tab
+        id="@+id/tab_artists"
+        icon="@drawable/ic_local_activity_black_24dp"
+        title="Artists"
+        barColorWhenSelected="#b71c1c"/>
+</tabs>

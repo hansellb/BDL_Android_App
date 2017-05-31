@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/top_block_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:minHeight="96dp"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest Artists"
+            android:textSize="36dp"
+            android:textColor="#b71c1c"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/darker_gray"/>
+        <!--
+                <GridView
+                    android:id="@+id/offers_grid_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:numColumns="2"
+                    android:columnWidth="96dp">
+
+                </GridView>
+        -->
+        <!--
+                <com.daimajia.slider.library.SliderLayout
+                    android:id="@+id/slider"
+                    android:layout_width="match_parent"
+                    app:pager_animation="Accordion"
+                    app:auto_cycle="true"
+                    app:indicator_visibility="visible"
+                    app:pager_animation_span="1100"
+                    android:layout_height="288dp"/>
+        -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="384dp"
+            android:layout_marginLeft="-16dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="368dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/latest_offers_item_1_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="Mojo Moor"
+                        android:textSize="36dp"
+                        android:textColor="#ff000000"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+                    <ImageView
+                        android:id="@+id/latest_offers_item_1_image"
+                        android:layout_width="288dp"
+                        android:layout_height="288dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/artist_1"/>
+                    <TextView
+                        android:id="@+id/latest_offers_item_1_time"
+                        android:layout_width="288dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="June 11th 2017 @ Englen"
+                        android:textSize="24dp"
+                        android:textColor="#eeee00"
+                        android:textStyle="bold|italic"
+                        android:textAlignment="center"
+                        android:background="@color/theme_primary"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="32dp">
+                    <TextView
+                        android:id="@+id/latest_offers_item_2_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="Rebalder"
+                        android:textSize="36dp"
+                        android:textColor="#ff000000"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+                    <ImageView
+                        android:id="@+id/latest_offers_item_2_image"
+                        android:layout_width="288dp"
+                        android:layout_height="288dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/artist_4"/>
+                    <TextView
+                        android:id="@+id/latest_offers_item_2_time"
+                        android:layout_width="288dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="June 20th 2017 @ The Temple Bar"
+                        android:textSize="24dp"
+                        android:textColor="#eeee00"
+                        android:textStyle="bold|italic"
+                        android:textAlignment="center"
+                        android:background="@color/theme_primary"
+                        android:layout_marginTop="8dp"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+    <!--
+        <LinearLayout
+            android:id="@+id/center_block_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:minHeight="96dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recent Events"
+                android:textSize="24dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="@dimen/item1_image_width"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/no_image_available"/>
+                <ImageView
+                    android:layout_width="@dimen/item1_image_width"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/no_image_available"/>
+                <ImageView
+                    android:layout_width="@dimen/item1_image_width"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/no_image_available"/>
+                <ImageView
+                    android:layout_width="@dimen/item1_image_width"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/no_image_available"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/bottom_block_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:minHeight="96dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trending artists"
+                android:textSize="24dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="@dimen/item1_image_width"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/no_image_available"/>
+                <ImageView
+                    android:layout_width="@dimen/item1_image_width"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/no_image_available"/>
+                <ImageView
+                    android:layout_width="@dimen/item1_image_width"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/no_image_available"/>
+                <ImageView
+                    android:layout_width="@dimen/item1_image_width"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/no_image_available"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_navigation_height"
+        android:text="Navigation Bar"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:background="#eeee11"/>
+
+</LinearLayout>

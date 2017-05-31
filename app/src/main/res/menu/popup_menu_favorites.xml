@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/popup_menu_favorites_item_1"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="Tritonia"
+        app:showAsAction="never"
+        android:orderInCategory="10">
+    </item>
+    <item
+        android:id="@+id/popup_menu_favorites_item_2"
+        android:icon="@drawable/ic_settings_white_48dp"
+        android:title="Englen"
+        app:showAsAction="never"
+        android:orderInCategory="15">
+    </item>
+    <item
+        android:id="@+id/popup_menu_favorites_item_3"
+        android:icon="@drawable/ic_settings_white_48dp"
+        android:title="Stampen"
+        app:showAsAction="never"
+        android:orderInCategory="15">
+    </item>
+</menu>
